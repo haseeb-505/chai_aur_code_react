@@ -11,6 +11,7 @@ function App() {
         <li>useState</li>
         <li>useEffect</li>
       </ul>
+      <h2>To go to movei Search Page: <a href="/search">Movie Search Page</a></h2>
     </>
   )
 }
