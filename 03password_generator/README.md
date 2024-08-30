@@ -20,4 +20,3 @@ In your current implementation:
 Optimization: Since generate_password is relatively lightweight and isn't passed as a prop, useCallback is not strictly necessary. The app would still work fine without it. However, if you expect to extend your app in the future where this function might become more complex or passed to child components, useCallback would then provide performance benefits.
 If you remove useCallback, the generate_password function will be recreated on every render, but it won't significantly impact the performance in your current setup.
 
-Would you like to see the code without useCallback to compare?
